@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	color:  white;
+}
+header{
+    background-image:  url(../images/bgp.jpg);
+    background-size:  cover;
+    height: 861px;
+    position:  relative;
+    margin-bottom:  110px;
+}
+
+header::befor{content: "";
+    position: absolute;
+    background: #2196f391;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;}
+
+.container {width:  1140px;margin:  0 auto;}
+
+.logo {padding-top: 118px;width:  30%;float:  left;}
+nav{
+    width:  70%;
+    float:  left;
+    padding-top: 110px;
+    padding-bottom:  178px;
+}
+nav ul {
+    text-align:  right;
+}
+nav ul li{
+    display:  inline-block;
+    padding:  15px;
+}
+nav ul li a{
+    color:  white;
+    text-decoration:  none;
+}
+nav ul li a:hover {
+    padding: 5px;
+    background: #f7600e;
+    font-weight: 600;
+    border: 1px solid #3B434B;
+}
+.header-content {text-align:  center;}
+
+h1{
+    font-size:  70px;
+    padding-bottom:  40px;
+    color: #3b434c;
+}
+span{
+    color:  #f7600e;
+}
+.header-content p{
+    font-size:  25px;
+    margin-bottom:  94px;
+}
+.hire{
+    background: #f7600e;
+    border: 1px solid #f7600e;
+    color:  white;
+    padding:  20px 80px;
+    border-radius: 13px;
+    font-size:  16px;
+    margin-bottom:  80px;
+}
+.hire:hover{
+    font-size: 18px;
+    font-weight: 00px;
+}
+.arrow{
+    color:  white;
+    font-size:  30px;
+    position:  absolute;
+    left:  50%;
+    bottom: 9%;
+    transform: translate(-50%, 10%);
+}
+.arrow:hover{
+    font-size: 35px;
+}
+.work {text-align:  center;height: 775px;margin-bottom:  114px;position:  relative;overflow:  hidden;}
+.work img{
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    margin-bottom: 10px;
+}
+
+.work-content {text-align:  center;}
+.work-content p {
+    color:  black;
+    width: 50%;
+    text-align:  center;
+    margin: 0 auto 100px;
+    font-size:  16px;
+}
+
+.w {
+    width:  33.33%;
+    float:  left;
+    margin-bottom:  63px;
+}
+
+.button a{
+	color: #3b434c;
+	text-decoration:  none;
+	border: 2px solid #e5e5e7;
+	padding: 19px 50px;
+	border-radius:  16px;
+	font-weight: 500;
+
+	}
+.button a:hover{
+    background: #f7600e;
+    color:  white;
+    opacity:  .9;
+    border: 2px solid #f77026;
+}
+.team {
+    display:  block;
+    text-align: center;
+    overflow:  hidden;
+}
+.team img{
+    margin-bottom:  30px;
+    min-width:  92%;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.team-content {
+}
+h2{
+    color: #3b434c;
+    margin-bottom:  30px;
+}
+.team-content p {color: #3b434c;margin-bottom:  130px;}
+.t {
+    width:  25%;
+    float:  left;
+}
+
+.t p{
+    color: #3b434c;
+    margin-bottom:  190px;
+    padding:  5px;
+}
+
+.contacts {background-image:  url(../images/c-photo.jpg);height: 980px;
+    text-align:  center;
+    background-repeat:  no-repeat;
+    background-size:  cover;}
+
+.contacts-content {margin-bottom:  100px;}
+.contacts-content p{
+    font-size:  18px;
+}
+
+.form-contact {
+}
+form{
+    width: 79%;
+    margin:  0 auto;
+    text-align:  left;
+
+}
+.con{
+    width: 49%;
+    border:  0px;
+    padding: 17px;
+    border-radius:  14px;
+    margin-bottom: 35px;
+    font-size:  16px;
+}
+textarea{
+    border: 0px;
+    padding: 17px;
+    border-radius: 14px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    width: 100%;
+}
+.hiree{
+    background: #f7600e;
+    border: 1px solid #f7600e;
+    color:  white;
+    padding:  20px 80px;
+    border-radius: 13px;
+    font-size:  16px;
+    margin-bottom:  80px;
+}
+.hiree:hover{
+    font-size: 18px;
+    font-weight: 00px;
+}
+
+.copy {padding: 45px 170px 0;float:  left;}
+
+.design {padding: 45px 170px;float: right;}
+footer{
+    height:  140px;
+    background: #3b434c;
+}
+footer img{}
